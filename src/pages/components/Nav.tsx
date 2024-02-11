@@ -83,7 +83,7 @@ export default function Nav() {
       )}
 
       {toggled && !matches && (
-        <div className="fixed flex justify-center items-center bg-white bottom-0 left-0 w-full h-screen">
+        <div className="fixed flex justify-center items-center bg-white bottom-0 left-0 w-full h-screen z-40">
           <motion.div
             variants={navMotion}
             animate="visible"
