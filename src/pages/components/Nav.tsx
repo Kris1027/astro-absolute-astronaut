@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useMediaQuery } from "../util/useMediaQuery";
+import { useMediaQuery } from "../../util/useMediaQuery";
 import { motion } from "framer-motion";
 
 const navMotion = {
